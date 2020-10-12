@@ -1,0 +1,178 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+}
+
+body {
+ 	background: url("img/bg.png") repeat;
+}            
+
+h1, h2, h3 {
+ 	font-size: 100%;
+}                 
+
+img {
+ 	vertical-align: bottom;
+}                        
+
+a {
+ 	text-decoration: none;
+ 	color: white;
+}                      
+
+ul {
+ 	list-style: none; 
+ 	display: flex;
+}
+
+.edge-wrap {
+	background: #356A6A;
+	width: 100%;
+
+} 
+
+header, footer {
+	background: #356A6A; 
+	width: 900px;
+ 	margin: 0 auto;
+ 	color: white;
+} 
+
+header {
+ 	display: flex;
+ 	justify-content: space-between;
+} 
+
+#subtitle {
+ 	font-size: 12px;
+} 
+
+.btn1 {
+ 	background: url("img/nav01.png"); 
+}
+
+.btn2 {
+ 	background: url("img/nav02.png"); 
+}
+
+.btn3 {
+ 	background: url("img/nav03.png"); 
+}
+
+.btn4 {
+ 	background: url("img/nav04.png"); 
+}
+
+.btn5 {
+ 	background: url("img/nav05.png"); 
+} 
+
+.btn6 {
+ 	background: url("img/nav06.png"); 
+}
+
+#top-nav a {
+	display: block;
+	width: 100px;
+	height: 25px;
+}
+
+#top-nav li:nth-child(4)  a{
+	display: block;
+	width: 120px;
+	height: 25px;
+}
+
+#top-nav li:hover {
+ 	background-position: 0px -25px; 
+ 	border-bottom: 2px solid yellow;
+}  
+
+#top-nav li {
+	margin-top: auto;
+}
+
+.hider {
+ 	text-indent: 150%;
+ 	white-space: nowrap;
+ 	overflow: hidden;
+}
+
+#wrapper {
+ 	width: 900px;
+ 	margin: 0 auto; 
+ 	background: white;
+ 	padding-bottom: 50px;
+}
+
+#container {
+ 	display: flex;
+} 
+
+#info {
+  color: gray; 
+  padding: 20px;
+} 
+
+h2 {
+ 	font-size: 14px;
+}
+
+#table-wrap {
+	 	background: #ffff93;
+ 		padding: 20px; 
+ 		border-radius: 5px;
+}
+
+table {
+ 	border-collapse: collapse;
+ 	border: 1px dotted gray; 
+ 	font-size: 14px;  
+
+} 
+
+th {
+ 	vertical-align: top;
+}
+
+th, td {
+ 	border: 1px dotted gray;
+} 
+
+#bnr-box {
+ 	margin: auto 0;
+}
+
+#bnr-box h2 {
+ 	margin-bottom: 20px;
+} 
+
+h3 {
+ 	text-align: center;
+ 	margin-bottom: 10px;
+}
+
+footer {
+ 	padding: 30px 0 100px 0;
+}
+
+footer ul {
+ 	width: 600px;
+ 	margin: 0 auto 20px;
+ 	line-height: 1;
+}
+
+footer li {
+ 	padding-left: 10px;
+} 
+footer a:hover {
+ 	color: #2d96ff;
+}
+
+footer li:not(last-child) {
+ 	padding-right: 10px;
+ 	border-right: 1px solid white;
+}
+    
+
+/*#D6D6D6*/
